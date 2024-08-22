@@ -11,7 +11,6 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
 }
 .main {
     display: flex;
@@ -20,11 +19,11 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: green;
     padding: 10px 20px 0px;
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: purple;
     min-height: 150px;
 }
 .content {
@@ -33,6 +32,24 @@ body {
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: purple;
     min-height: 150px;
+}
+
+table thead th {
+    background-color: green;
+    color: white
+}
+
+table tfoot td {
+    background-color: lightgray;
+}
+
+table tbody tr:nth-child(even) td {
+    background-color: purple;
+}
+
+table tbody tr:hover td {
+    background-color: #E9E9E9;
+    cursor: pointer
 }
